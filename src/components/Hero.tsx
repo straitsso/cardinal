@@ -34,20 +34,6 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="hero-strip" aria-hidden="true">
-          <div className="img-ph">
-            <span className="img-idx">01 / 03</span>
-            <span className="img-label">Plant floor — machining cell</span>
-          </div>
-          <div className="img-ph">
-            <span className="img-idx">02 / 03</span>
-            <span className="img-label">Boardroom portrait</span>
-          </div>
-          <div className="img-ph">
-            <span className="img-idx">03 / 03</span>
-            <span className="img-label">Industrial detail</span>
-          </div>
-        </div>
       </div>
     </header>
   );

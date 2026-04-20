@@ -1,13 +1,8 @@
-import { BrandMark } from "./BrandMark";
-
 export function Nav() {
   return (
     <nav className="nav">
       <div className="nav-inner">
         <a href="#" className="brand">
-          <span className="brand-mark">
-            <BrandMark />
-          </span>
           <b>Cardinal</b>
           &nbsp;
           <span>Principals</span>
