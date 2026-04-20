@@ -22,7 +22,7 @@ export function About() {
               src="/joel.jpeg"
               alt="Joel Rood, founder of Cardinal Principals"
               fill
-              sizes="(max-width: 900px) 100vw, 500px"
+              sizes="(max-width: 900px) 100vw, 340px"
               style={{ objectFit: "cover" }}
               priority
             />
