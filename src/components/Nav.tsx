@@ -9,8 +9,8 @@ export function Nav() {
         </a>
         <div className="nav-links">
           <a href="#approach">Approach</a>
-          <a href="#work">Selected Work</a>
           <a href="#about">About</a>
+          <a href="#work">Selected Work</a>
           <a href="#services">Services</a>
         </div>
         <a href="#contact" className="nav-cta">
