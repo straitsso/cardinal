@@ -15,8 +15,8 @@ export default function Home() {
       <Hero />
       <Proof />
       <Approach />
-      <Engagements />
       <About />
+      <Engagements />
       <Services />
       <Contact />
       <Footer />
