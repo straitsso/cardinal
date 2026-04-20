@@ -619,6 +619,49 @@ section {
   margin-top: 8px;
 }
 
+.education {
+  margin-top: 48px;
+  padding-top: 40px;
+  border-top: 1px solid #ffffff18;
+}
+.education > .eyebrow {
+  display: block;
+  color: #ffffff88;
+  margin-bottom: 28px;
+}
+.education-list {
+  display: flex;
+  flex-direction: column;
+}
+.education-item {
+  padding: 20px 0;
+  border-top: 1px solid #ffffff14;
+}
+.education-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.education-item:last-child {
+  padding-bottom: 0;
+}
+.education-school {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.35;
+  color: #ffffffd8;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+}
+.education-honors {
+  margin-top: 8px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff78;
+  line-height: 1.7;
+}
+
 /* Services */
 .services-grid {
   display: grid;

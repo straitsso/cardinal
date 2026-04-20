@@ -56,6 +56,37 @@ export function About() {
                 <div className="label">LORD Sale, 2019</div>
               </div>
             </div>
+
+            <div className="education">
+              <span className="eyebrow">
+                <span className="dot" />
+                Education
+              </span>
+              <div className="education-list">
+                <div className="education-item">
+                  <div className="education-school">
+                    Princeton University — BS Civil Engineering
+                  </div>
+                  <div className="education-honors">
+                    Summa Cum Laude · Sigma Xi · Best Senior Thesis ·
+                    Intercollegiate Football &amp; Baseball
+                  </div>
+                </div>
+                <div className="education-item">
+                  <div className="education-school">
+                    University of Texas at Austin — MS Petroleum Engineering
+                  </div>
+                  <div className="education-honors">
+                    Schlumberger Fellow · Tau Beta Pi
+                  </div>
+                </div>
+                <div className="education-item">
+                  <div className="education-school">
+                    Stanford Graduate School of Business — Sloan Fellow
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
