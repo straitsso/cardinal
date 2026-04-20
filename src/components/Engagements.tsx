@@ -114,7 +114,6 @@ export function Engagements() {
             <div className="eng-tags">
               <span className="tag">Turnaround</span>
               <span className="tag">Operations</span>
-              <span className="tag">Commercial Reset</span>
             </div>
           </div>
           <div>

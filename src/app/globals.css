@@ -496,6 +496,12 @@ section {
 .metric {
   background: var(--ivory);
   padding: 24px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
 }
 .metric .k {
   font-family: var(--serif);
@@ -503,6 +509,7 @@ section {
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--ink);
+  white-space: nowrap;
 }
 .metric .k .arrow {
   color: var(--accent);
@@ -511,7 +518,6 @@ section {
   margin: 0 4px;
 }
 .metric .label {
-  margin-top: 12px;
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 0.14em;
