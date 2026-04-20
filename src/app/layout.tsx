@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/cardinal.png",
+        url: "/cardinal.png?v=2",
         width: 203,
         height: 203,
         alt: "Cardinal Principals",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Cardinal Principals — Advisory for PE-backed industrials",
     description:
       "Operators who have done it, advising the leaders who must.",
-    images: ["/cardinal.png"],
+    images: ["/cardinal.png?v=2"],
   },
 };
 
