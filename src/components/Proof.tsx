@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Proof() {
   return (
     <section className="proof">
@@ -8,20 +10,32 @@ export function Proof() {
             billions in shareholder value
           </div>
           <div className="logos">
-            <div className="logo-ph">
-              LORD<span className="sub">Corporation</span>
+            <div className="logo-img">
+              <Image
+                src="/lord.jpg"
+                alt="LORD Corporation"
+                width={1647}
+                height={463}
+                sizes="(max-width: 900px) 45vw, 280px"
+              />
             </div>
-            <div className="logo-ph">
-              Hilti<span className="sub">Great Britain</span>
+            <div className="logo-img">
+              <Image
+                src="/hilti.jpg"
+                alt="Hilti"
+                width={800}
+                height={161}
+                sizes="(max-width: 900px) 45vw, 280px"
+              />
             </div>
-            <div className="logo-ph">
-              Hilti<span className="sub">Australia</span>
-            </div>
-            <div className="logo-ph" style={{ fontStyle: "italic" }}>
-              Parker Hannifin<span className="sub">Acquirer, 2019</span>
-            </div>
-            <div className="logo-ph">
-              Two Boards<span className="sub">Current</span>
+            <div className="logo-img">
+              <Image
+                src="/jameshardie.png"
+                alt="James Hardie"
+                width={860}
+                height={240}
+                sizes="(max-width: 900px) 45vw, 280px"
+              />
             </div>
           </div>
         </div>
