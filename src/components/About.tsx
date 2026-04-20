@@ -64,25 +64,55 @@ export function About() {
               </span>
               <div className="education-list">
                 <div className="education-item">
-                  <div className="education-school">
-                    Princeton University — BS Civil Engineering
+                  <div className="education-logo">
+                    <Image
+                      src="/princeton.jpeg"
+                      alt="Princeton University"
+                      width={100}
+                      height={100}
+                    />
                   </div>
-                  <div className="education-honors">
-                    Summa Cum Laude · Sigma Xi · Best Senior Thesis ·
-                    Intercollegiate Football &amp; Baseball
+                  <div>
+                    <div className="education-school">
+                      Princeton University — BS Civil Engineering
+                    </div>
+                    <div className="education-honors">
+                      Summa Cum Laude · Sigma Xi · Best Senior Thesis ·
+                      Intercollegiate Football &amp; Baseball
+                    </div>
                   </div>
                 </div>
                 <div className="education-item">
-                  <div className="education-school">
-                    University of Texas at Austin — MS Petroleum Engineering
+                  <div className="education-logo">
+                    <Image
+                      src="/texas.jpeg"
+                      alt="University of Texas at Austin"
+                      width={100}
+                      height={100}
+                    />
                   </div>
-                  <div className="education-honors">
-                    Schlumberger Fellow · Tau Beta Pi
+                  <div>
+                    <div className="education-school">
+                      University of Texas at Austin — MS Petroleum Engineering
+                    </div>
+                    <div className="education-honors">
+                      Schlumberger Fellow · Tau Beta Pi
+                    </div>
                   </div>
                 </div>
                 <div className="education-item">
-                  <div className="education-school">
-                    Stanford Graduate School of Business — Sloan Fellow
+                  <div className="education-logo">
+                    <Image
+                      src="/stanford.jpeg"
+                      alt="Stanford Graduate School of Business"
+                      width={100}
+                      height={100}
+                    />
+                  </div>
+                  <div>
+                    <div className="education-school">
+                      Stanford Graduate School of Business — Sloan Fellow
+                    </div>
                   </div>
                 </div>
               </div>
