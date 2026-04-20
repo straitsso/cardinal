@@ -5,10 +5,6 @@ export function Hero() {
         <div className="hero-meta">
           <span className="eyebrow">
             <span className="dot" />
-            Est. 2024 · Raleigh, NC
-          </span>
-          <span className="divider" />
-          <span className="eyebrow right">
             Advisory for PE-backed industrials
           </span>
         </div>
