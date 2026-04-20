@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function About() {
   return (
     <section className="about" id="about">
@@ -16,7 +18,14 @@ export function About() {
 
         <div className="about-grid">
           <div className="headshot">
-            <span className="img-label">Founder portrait — editorial, b/w</span>
+            <Image
+              src="/joel.jpeg"
+              alt="Joel Rood, founder of Cardinal Principals"
+              fill
+              sizes="(max-width: 900px) 100vw, 500px"
+              style={{ objectFit: "cover" }}
+              priority
+            />
           </div>
           <div className="about-body">
             <p>
