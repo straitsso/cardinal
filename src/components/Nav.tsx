@@ -13,7 +13,12 @@ export function Nav() {
           <a href="#work">Selected Work</a>
           <a href="#services">Services</a>
         </div>
-        <a href="#contact" className="nav-cta">
+        <a
+          href="https://calendly.com/joel-cardinalprincipals/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-cta"
+        >
           Book an intro call
           <span className="arrow">→</span>
         </a>

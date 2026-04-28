@@ -21,7 +21,12 @@ export function Hero() {
             large-scale industrial companies.
           </p>
           <div className="cta-row">
-            <a href="#contact" className="btn btn-primary">
+            <a
+              href="https://calendly.com/joel-cardinalprincipals/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
               Book an intro call <span>→</span>
             </a>
             <a href="#work" className="btn btn-ghost">
